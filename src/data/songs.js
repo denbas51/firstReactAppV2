@@ -1,0 +1,42 @@
+export const songs = [
+  {
+    id: 1,
+    name: "Bad Habits",
+    author: "Ed Sheeran",
+    releaseDate: "25.06.2021",
+    albumName: "Nav",
+    isLike: false,
+  },
+  {
+    id: 2,
+    name: "Candy Shop",
+    author: "50 Cent",
+    releaseDate: "10.09.2005",
+    albumName: "The Massacre",
+    isLike: true,
+  },
+  {
+    id: 3,
+    name: "Старi фотографii",
+    author: "Скрябiн",
+    releaseDate: "15.03.2005",
+    albumName: "Танго",
+    isLike: false,
+  },
+  {
+    id: 4,
+    name: "Jingle bells",
+    author: "Crazy Frog",
+    releaseDate: "31.12.2005",
+    albumName: "Crazy Frog Presents Crazy Hits",
+    isLike: true,
+  },
+  {
+    id: 5,
+    name: "Not Afraid",
+    author: "Eminem",
+    releaseDate: "23.06.2010",
+    albumName: "Hits June 10",
+    isLike: false,
+  },
+]
