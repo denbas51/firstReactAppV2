@@ -21,10 +21,10 @@ function App() {
     setTodos(todos.filter((todo) => todo.id !== id))
   }
 
-  const addLike = (isLike) => {
+  const addLike = (id) => {
     setTodos([
       ...todos.map((todo) =>
-        todo.isLike === isLike ? { ...todo, isLike: !todo.isLike } : { ...todo }
+        todo.id === id ? { ...todo, isLike: !todo.isLike } : { ...todo }
       ),
     ])
   }
