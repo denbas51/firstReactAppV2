@@ -1,6 +1,7 @@
 import { useState } from "react"
 import AddNewTodo from "./components/AddNewTodo"
 import FormList from "./components/FormList"
+import Counter from "./components/Counter"
 import { songs } from "./data/songs"
 import "./style/App.css"
 
@@ -33,9 +34,7 @@ function App() {
       <h2>Playlist</h2>
       <AddNewTodo addTodo={addTodo} generateId={generateId} />
       <FormList todos={todos} deleteTodo={deleteTodo} addLike={addLike} />
-      <p class="count-title">
-        Count of songs: <span class="count"> {todos.length} </span>
-      </p>
+      <Counter todos={todos} />
     </div>
   )
 }
