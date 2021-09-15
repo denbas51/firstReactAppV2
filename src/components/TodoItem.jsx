@@ -1,5 +1,5 @@
 import TodoButton from "./UI/button/TodoButton"
-import "../images/like.svg"
+import like from "../images/like.svg"
 
 function TodoItem({ todo, deleteTodo, addLike }) {
   return (
@@ -16,7 +16,7 @@ function TodoItem({ todo, deleteTodo, addLike }) {
       </TodoButton>
       <div className="setLike">
         {todo.isLike ? (
-          <img src="../images/like.svg" alt="" width="30px" height="30px" />
+          <img src={like} alt="" width="30px" height="30px" />
         ) : null}
       </div>
     </div>
