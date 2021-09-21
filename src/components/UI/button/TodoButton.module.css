@@ -1,0 +1,10 @@
+.TodoCreateButton {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.TodoCreateButton:hover {
+  background-color: #ccc;
+}

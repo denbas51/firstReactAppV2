@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+/* .like {
+  background-color: #ff9fa4;
+} */
+.delete {
+  background-color: #a6e2f5;
+}
+.input-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.count-title span {
+  color: #646464;
+  font-weight: bold;
+}
+.like-icon {
+  height: 100%;
+  margin-left: 10px;
+}
+h2 {
+  text-align: center;
+}
+.create__item {
+  padding-bottom: 15px;
+}
+.item-todo {
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
